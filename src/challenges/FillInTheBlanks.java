@@ -2,7 +2,7 @@ package challenges;
 
 import java.util.Scanner;
 
-public class fill_in_the_blank {
+public class FillInTheBlanks {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -18,10 +18,12 @@ public class fill_in_the_blank {
 
         // Get number
         int number;
-        System.out.println("How mamy cups of water do you drink in this season?");
+        System.out.println("How many cups of coffee do you drink in this season?");
         number = scanner.nextInt();
 
+        scanner.close();
+
         // Display results
-        System.out.println("On a " + adjective + " " + season + " day, I drink a minimum of " + number + " cups of coffee.");
+        System.out.println("On a(n) " + adjective + " " + season + " day, I drink a minimum of " + number + " cups of coffee.");
     }
 }
