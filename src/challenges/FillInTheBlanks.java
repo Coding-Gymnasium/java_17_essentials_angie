@@ -8,7 +8,7 @@ public class FillInTheBlanks {
 
         // Get season
         String season;
-        System.out.println("What season do you drink most water?");
+        System.out.println("What season do you drink most coffee?");
         season = scanner.next();
 
         // Get adjective
@@ -18,7 +18,7 @@ public class FillInTheBlanks {
 
         // Get number
         int number;
-        System.out.println("How many cups of coffee do you drink in this season?");
+        System.out.println("How many cups of coffee do you drink a day in this season?");
         number = scanner.nextInt();
 
         scanner.close();
