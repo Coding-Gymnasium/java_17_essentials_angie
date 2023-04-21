@@ -1,4 +1,4 @@
-package Strings;
+package TextProcessing;
 
 public class TextProcessor {
 
